@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>ALLTHEMUSIC</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <link href="assets/css/bootstrap-player.css" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><b>ALLTHEMUSIC</b></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Learn more</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>Direct access to listener data. No middle man.</h1>
+					<form class="form-inline" role="form">
+					  <div class="form-group">
+					    <input type="file" id="file1" placeholder="Select song or audio file">
+					  </div>
+					  <button type="submit" class="btn btn-warning btn-lg">Publish!</button>
+					</form>
+				</div><!-- /col-lg-6 -->
+				<div class="col-lg-6">
+					<img class="img-responsive" src="assets/img/ipad-hand.png" alt="">
+				</div><!-- /col-lg-6 -->
+
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>No central service.<br/>No monthly fee.</h1>
+			</div>
+		</div><!-- /row -->
+
+    <div class="container">
+      <hr>
+      <div class="row centered">
+        <div class="col-lg-6 col-lg-offset-3">
+          <form class="form-inline" role="form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="searchQuery1" placeholder="Enter a song title">
+            </div>
+            <button type="submit" class="btn btn-warning btn-lg">Search!</button>
+          </form>
+        </div>
+        <div class="col-lg-3"></div>
+      </div><!-- /row -->
+      <hr>
+    </div><!-- /container -->
+
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-6 col-lg-offset-3">
+          <audio controls
+          	data-info-album-art="http://farm5.staticflickr.com/4050/4353986539_ec89b52698_d.jpg"
+          	data-info-album-title="8874"
+          	data-info-artist="Billy Murray"
+          	data-info-title="Come, take a trip in my air-ship"
+          	data-info-label="Edison Gold Moulded Record"
+          	data-info-year="1905"
+          	data-info-att="University of California, Santa Barbara Library."
+          	data-info-att-link="http://cylinders.library.ucsb.edu/search.php?query=8874">
+          	<source src="/bootstrap-player/media/cusb-cyl2985d.ogg" type="audio/ogg" />
+          	<source src="/bootstrap-player/media/cusb-cyl2985d.mp3" type="audio/mpeg" />
+          	<a href="/bootstrap-player/media/cusb-cyl2985d.mp3">cusb_cyl2985d</a>
+          </audio>
+        </div>
+        <div class="col-lg-3"></div>
+      </div><!-- /row -->
+    </div><!-- /container -->
+	</div><!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap-player.js"></script>
+  </body>
+</html>
